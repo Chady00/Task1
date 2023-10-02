@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap");
+.horizontal-menu {
+  background-color: white;
+  color: #000;
+  top: 123px;
+  width: 100%;
+  height: 123px;
+  box-shadow: 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 9px;
+
+  font-family: "Inter", sans-serif;
+  padding: 16px;
+
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  font-style: normal;
+  line-height: normal;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 123px;
+  margin-bottom: 113px;
+}
+
+.horizontal-menu .ant-menu-item {
+  flex: 1;
+  display: flex; /* Added flex display */
+  align-items: center; /* Vertically center the text within menu items */
+  text-align: center;
+  text-decoration: none;
+  border-right: 1.5px solid #ccc; /* Add border to all menu items */
+}
+
+/* Remove right border from the last menu item */
+.horizontal-menu .ant-menu-item.last-menu-item {
+  border-right: none;
+}
+
+.horizontal-menu .ant-menu-item-active a {
+  color: #333;
+}
+
+.horizontal-menu .ant-menu-item a {
+  color: #333;
+}

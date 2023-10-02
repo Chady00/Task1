@@ -1,0 +1,5 @@
+.ant-menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

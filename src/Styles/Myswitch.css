@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+.my-switch {
+  /* Make the switch larger. */
+  width: 3rem;
+  height: 24px;
+
+  /* Set the border and background color. */
+  border: 1px solid #ccc;
+  background-color: rgb(250, 233, 233);
+
+  /* Set the handle background color and border radius. */
+
+  /* Set the hover state background color. */
+  &:hover {
+    background-color: white;
+  }
+}
+
+.label-tag {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color: #666666;
+}
