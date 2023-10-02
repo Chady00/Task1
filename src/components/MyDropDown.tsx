@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import { CaretDownOutlined, UserOutlined } from "@ant-design/icons";
+import { CaretDownOutlined } from "@ant-design/icons";
 import type { MenuProps } from "antd";
-import { Button, Dropdown, message, Space, Tooltip } from "antd";
+import { Button, Dropdown, message, Space } from "antd";
 import "../Styles/MyDropDown.css";
-import type { Question } from "../types/type";
 
 const items: { label: string; key: string }[] = [
   {

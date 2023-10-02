@@ -7,7 +7,11 @@ const onChange = (e: CheckboxChangeEvent) => {
   console.log(`checked = ${e.target.checked}`);
 };
 
-const MyCheckBox: React.FC = ({ checkText }) => (
+interface MyCheckBoxProps {
+  checkText?: string;
+}
+
+const MyCheckBox: React.FC<MyCheckBoxProps> = ({ checkText }) => (
   <Checkbox
     onChange={onChange}
     className="label-tag"

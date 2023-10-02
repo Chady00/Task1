@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Form, Input, Button, Row, Col } from "antd";
+import { Form, Input, Row, Col } from "antd";
 
 import MyCheckBox from "./MyCheckBox";
 import MySwitch from "./MySwitch";

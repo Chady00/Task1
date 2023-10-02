@@ -6,7 +6,6 @@ import "../Styles/CardsStyle.css";
 import type { FormItem } from "../types/type";
 import { useState, useEffect } from "react";
 import type { Question } from "../types/type";
-import type { DataSchema } from "../types/type";
 
 const cardHeadStyle = {
   backgroundColor: "#D0F7FA",
@@ -90,10 +89,9 @@ const Profile: FormItem[] = [
 ];
 
 const Cards: React.FC = () => {
-  const [data, setData] = useState<DataSchema>();
   const [pInfoQuestion, setPInfoQuestion] = useState<Question[]>([]);
   const [profileQuestion, setProfileQuestion] = useState<Question[]>([]);
-  const [additionalQuestion, setAdditionalQuestion] = useState<Question[]>([]);
+  // const [additionalQuestion, setAdditionalQuestion] = useState<Question[]>([]);
 
   //use effect to print pInfoQuestion
   useEffect(() => {
@@ -155,17 +153,17 @@ const Cards: React.FC = () => {
       },
     ]);
   };
-  const AddAdditionalQuestion = () => {
-    setAdditionalQuestion([
-      ...additionalQuestion,
-      {
-        id: additionalQuestion.length + 1,
-        category: "Additional",
-        questionType: "paragraph",
-        questionContent: "",
-      },
-    ]);
-  };
+  // const AddAdditionalQuestion = () => {
+  //   setAdditionalQuestion([
+  //     ...additionalQuestion,
+  //     {
+  //       id: additionalQuestion.length + 1,
+  //       category: "Additional",
+  //       questionType: "paragraph",
+  //       questionContent: "",
+  //     },
+  //   ]);
+  // };
 
   return (
     <Space direction="vertical" size="large" className="cards-container">

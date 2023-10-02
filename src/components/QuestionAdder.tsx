@@ -4,12 +4,10 @@ import {
   PlusOutlined,
   UnorderedListOutlined,
 } from "@ant-design/icons";
-import { Button, Card, Form, Input, Space, Typography } from "antd";
+import { Button, Card, Form, Input, Space } from "antd";
 import "../Styles/QuestionAdder.css";
 import MyDropDown from "./MyDropDown";
 import type { Question } from "../types/type";
-
-const { TextArea } = Input;
 
 interface QuestionProp {
   AddQuestion: () => void;
@@ -22,19 +20,7 @@ const QuestionAdder: React.FC<QuestionProp> = ({
   rmQuestion,
   updateQuestion,
 }) => {
-  const [form] = Form.useForm();
   const [selectedType, setSelectedType] = useState<string>("paragraph");
-
-  const handleSaveData = (fieldName) => {
-    form
-      .validateFields([fieldName])
-      .then((values) => {
-        console.log("Data to save:", values);
-      })
-      .catch((errorInfo) => {
-        console.error("Save failed:", errorInfo);
-      });
-  };
 
   const UpdateQuestionSchema = (label: string, id: number) => {
     // create new object with the new label

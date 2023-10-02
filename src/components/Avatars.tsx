@@ -1,7 +1,7 @@
 import React from "react";
 import { Avatar, Space } from "antd";
 
-const Avatars: React.FC = (props) => (
+const Avatars: React.FC = () => (
   <Space direction="vertical" size={16}>
     <Avatar
       size={48}
