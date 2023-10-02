@@ -44,6 +44,12 @@ To get started with this project locally, follow these steps:
 ## API Documentation
 The API schema and documentation can be found in the api-docs directory of this repository. You can refer to this documentation to understand the endpoints and data formats used in the API.
 
+## Deployment:
+The project is deployed and accessible online. You can view it live on github pages or Vercel.
+![image](https://github.com/Chady00/Task1/assets/84717550/7f05bb8a-7429-4c29-8853-7772a8652dbc)
+
+## Repository
+Find the complete source code and project files in this GitHub repository: [GitHub Repo Link](https://github.com/Chady00/London-Internship-Program)https://github.com/Chady00/London-Internship-Program
 ## Repository
 Find the complete source code and project files in this GitHub repository: [GitHub Repo Link](https://github.com/Chady00/Task1)https://github.com/Chady00/Task1
 
