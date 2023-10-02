@@ -26,5 +26,5 @@
   transition: background-color 0.3s; /* Smooth hover transition */
 }
 .ant-menu-item-selected {
-  background-color: #b039cc !important;
+  background-color: #ffffff !important;
 }
